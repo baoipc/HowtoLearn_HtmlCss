@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learning HTML and Css</title>
+        <link rel="stylesheet" href="main.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <a href="https://github.com/baoipc"> If you are free,you can visit and take a message</a>
+        <br>
+        <p>I think the new of logo Html5 is not beautiful than before</p>
+        <img src="html5.png" width = "100px" height="100px" alt="LogoHtml5">
+        <br>
+        <p>How about you thinking about logo of Css3?</p>
+        <img src="css3.png" width = "100px" height="100px" alt="LogoCss3">
+        <!-- attribute alt to help find easily in google,learn about :"SEO" -->
+        <!-- Different between tag hr and tag br ::> -->
+        <p> Check the different between tag pre and tag list </p>
+        <pre>1.In my relaxing time, what do u usually do ?</pre>
+        <pre>2.When you sad, what type of music do u like ?</pre>
+        <pre>3.what kind of food do u like ?</pre>
+        <br>
+        <p>Let's I introduce myself</p>
+        <ul> <!--ul: unordered list,ol: ordered list -->
+            <li>1.I like eating beef</li>
+            <li>2.I want to sleep now ::)</li>
+            <li>3.If u like, you can take the message for me. I will take my FB in the end</li>
+        </ul>
+        <p>Thời khóa biểu môn học</p>
+        <table>
+            <thead>
+                <th>Môn học:</th>
+                <th>Thứ:</th>
+                <th>Thời gian:</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pháp luật đại cương</td>
+                    <td>2</td>
+                    <td>10h-11h30</td>
+                </tr>
+                <tr>
+                    <td>Giải tích</td>
+                    <td>2</td>
+                    <td>13h-16h15</td>
+                </tr>
+                <tr>
+                    <td>Kĩ năng nghề nghiệp</td>
+                    <td>4</td>
+                    <td>7h30-9h45</td>
+                </tr>
+                <tr>
+                    <td>Nhập môn điện tử</td>
+                    <td>4</td>
+                    <td>13h-16h15</td>
+                </tr>
+                <tr>
+                    <td>Giải tích</td>
+                    <td>5</td>
+                    <td>7h30-11h30</td>
+                </tr>
+                <tr>
+                    <td>Nhập môn lập trình</td>
+                    <td>6</td>
+                    <td>7h30-10h45</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form action=""> <!--If u submit, the data will post into database server-->
+            <label>Your First Name:</label>
+            <input type="text" name="fname" id="fname"> <br>
+            <!-- attribute name is provide data in database -->
+            <!-- attribute id is place to CSS processing -->
+            <label>Your Last Name:</label>
+            <input type="text" name="lname" id="lname"> <br>
+            <!--type in tag submit others have:radio,checkbox -->
+            <input type="Submit" value="Submit">
+            <!--attribute value display on Web you run code-->
+        </form>
+        <br>
+        <button>Test tag button</button>
+        <br>
+        <p>How many way to use CSS</p>
+        <ol>
+            <li>Internal:Use tag style in part of head </li>
+            <li>External:Use others file to write Css and push it into file Html</li>
+            <li>Inline:Write Css and write into tag</li>
+        </ol>
+        <br>
+        <p>Manual using Css by Internal+Inline</p>
+        <ol>
+            <li>If u write ID,you write:"#" + name_id</li>
+            <li>If u write class,you write:"." + name_class</li>
+            <li>If want use Css selector profession,can visit: 
+                <a href="https://www.w3schools.com/cssref/trysel.asp" target="_blank">here</a>
+                <!-- attribute target=_blank meaning: if u click, you could not lose current page-->
+            </li>
+        </ol>
+        <br>
+        <a>So: Priority in CSS ? If depending total point, if score equal among tag if depend on time u write </a>
+        <ol>
+            <li>Between Internal and External:the first one to be written will also be the first to be conducted  </li>
+            <li>Inline: 1000 point</li>
+            <li>#id: 100 point</li>
+            <li>.class: 10 point</li>
+            <li>tag: 1 point</li>
+            <li>Between Universal and inherited, inherited winning but all of that means 0 point </li>
+        </ol>
+        <p>Variable in css</p>
+        <p>CSS Unit</p>
+        <p>CSS solution</p>
+        <p>CSS pseudo-class:</p>
+        <ol>
+            <li>:root : it is ability to reach the element in tag HTML</li>
+            <li>:hover: when u not reach the element, it has another adjustment</li>
+            <li>:active: when u not click the element, it has another adjustment</li>
+            <li>:first-child: the first element </li>
+            <li>:last-child: the last element </li>
+        </ol>
+        <br>
+        <p>CSS pseudo-element:</p>
+        <ul>
+            <li>::before: meaning the first element, it always appear the first</li>
+            <li>::after: meaning the last element, it always appear the last</li>
+            <!--before and after is only one-->
+            <li>::first-letter: meaning chang the attribute first character </li>
+            <li>::first-line: meaning change the attribute first line </li>
+            <li>::selection: when u paint block, it change the attribute ::) </li>
+        </ul>
+    </body>
+</html>
